@@ -1,0 +1,27 @@
+.header-controller {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  svg {
+    margin: 0px 16px;
+  }
+  .date-time {
+    text-align: right;
+    padding: 0 24px;
+    .time {
+      font-size: 40px;
+      font-weight: 400;
+      text-align: right;
+      color: #0a0e1c;
+      margin-top: 12px;
+      margin-bottom: 0;
+    }
+    .date {
+      font-size: 12px;
+      font-weight: 500;
+      text-align: right;
+      color: #0a0e1c;
+      margin: 0;
+    }
+  }
+}

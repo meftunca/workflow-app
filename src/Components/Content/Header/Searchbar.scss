@@ -1,0 +1,22 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(129, 120, 120);
+  width: 25vw;
+  border-radius: 30px;
+  //   align-self: 0;
+  overflow: hidden;
+  svg {
+    margin-right: 16px;
+    margin-left: 20px;
+  }
+  input {
+    min-height: 48px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    &::placeholder {
+      color: #565656;
+    }
+  }
+}
